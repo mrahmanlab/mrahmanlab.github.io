@@ -4,39 +4,46 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
 <url>
   <loc>https://mrahmanlab.github.io/</loc>
-  <lastmod>2023-01-26T22:27:04+00:00</lastmod>
+  <lastmod>2024-01-03T18:26:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://mrahmanlab.github.io/research.html</loc>
+  <lastmod>2024-01-03T18:26:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://mrahmanlab.github.io/people.html</loc>
-  <lastmod>2023-01-26T22:27:04+00:00</lastmod>
+  <lastmod>2024-01-03T18:26:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mrahmanlab.github.io/publications.html</loc>
-  <lastmod>2023-01-26T22:27:04+00:00</lastmod>
+  <lastmod>2024-01-03T18:26:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mrahmanlab.github.io/opportunities.html</loc>
-  <lastmod>2023-01-26T22:27:04+00:00</lastmod>
+  <lastmod>2024-01-03T18:26:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mrahmanlab.github.io/contact.html</loc>
-  <lastmod>2023-01-26T22:27:04+00:00</lastmod>
+  <lastmod>2024-01-03T18:26:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mrahmanlab.github.io/index.html</loc>
-  <lastmod>2023-01-26T22:27:04+00:00</lastmod>
+  <lastmod>2024-01-03T18:26:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mrahmanlab.github.io/cv/GW_Muhammad.pdf</loc>
-  <lastmod>2023-01-26T22:27:04+00:00</lastmod>
+  <lastmod>2024-01-03T18:26:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
