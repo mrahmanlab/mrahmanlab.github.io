@@ -12,36 +12,84 @@
       <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
       <link href="css/theme.css" rel="stylesheet">
 
-      <script type="application/ld+json">
-            {
-              "@context": "https://schema.org/",
-              "@type": "Person",
-              "name": "Muhammad Mahbubur Rahman",
-              "url": "http://mrahmanlab.github.io",
-              "image": "https://mrahmanlab.github.io/thumbs/profile_pic_short.png",
-              "sameAs": [
-                "https://apps.smhs.gwu.edu/smhs/facultydirectory/profile.cfm?empName=Muhammad%20Rahman&FacID=2077507956&show=1",
-                "https://research.childrensnational.org/people/rahman-muhammad-muhbubur",
-                "https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics/muhammad-rahman"
+<script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@graph": [
+         {
+          "@type": "Person",
+          "@id": "https://research.childrensnational.org/people/rahman-muhammad-muhbubur",
+          "name": "Muhammad Mahbubur Rahman",
+          "jobTitle": ["Assistant Professor", "Data Scientist", "Principal Investigator"], 
+          "affiliation" : [
+              {"@id": "https://www.gwu.edu", 
+               "@type": "EducationalOrganization",
+               "name":  "George Washington University",
+               "url": "https://www.gwu.edu",
+               "department": "https://smhs.gwu.edu",
+               "address": {"@id":"_:gwuAddress"}
+              },
+              {"@id": "https://research.childrensnational.org",
+               "@type": "EducationalOrganization",
+               "name": "Children's National Hospital",
+               "address": {"@id":"_:cnhAddress"}
+               },
+               {"@id": "https://research.childrensnational.org/labs/mindful-ai",
+               "@type": "EducationalOrganization",
+               "name": "Mindful AI Laboratory",
+               "address": {"@id":"_:cnhAddress"}
+               },
+              {"@id": "https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics",
+               "@type": "EducationalOrganization",
+               "name": "Biostatistics and bioinformatics",
+                "department": "https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics",
+               "address": {"@id":"_:gwuAddress"}}
               ],
-              "jobTitle": "Assistant Professor",
-              "worksFor": {
-                "@type": "Organization",
-                "name": "George Washington University"
-              },  
-              "affiliation": [
-              "Children's National Hospital",
-              "George Washington University", 
-              "Milken Institute School of Public Health"
-              ],
-              "alumniOf": "University of Maryland, Baltimore County",
-              "email": ["mmrahman@childrensnational.org", "muhammad.rahman@gwu.edu", "mahbubur84k@gmail.com", "mrahman1@umbc.edu"],
-              "familyName": "Rahman",
-              "gender": "Male",
-              "givenName": "Muhammad"
-              
-            }
-      </script>
+          "email" : ["mmrahman@childrensnational.org", "muhammad.rahman@gwu.edu", "mahbubur84k@gmail.com", "mrahman1@umbc.edu"],
+          "familyName" : "Rahman",
+        "gender": "http://schema.org/Male",
+          "givenName" : "Muhammad",
+        "honorificPrefix": ["Dr.", "Prof."],
+          "telephone" : "240-531-6587",
+          "url": "https://research.childrensnational.org/people/rahman-muhammad-muhbubur",
+          "image" : "https://mrahmanlab.github.io/thumbs/profile_pic_short.png",
+          "address": {"@id":"_:cnhAddress"},
+          "description" : "Muhammad M. Rahman, Ph.D., is a tenure-track assistant professor and a computer scientist. Dr. Rahman’s primary research interests are artificial intelligence (AI), natural language processing (NLP), machine learning, data analytics and child and adolescent mental health. He has a deep passion for investigating and developing new machine learning, natural language processing and AI techniques to understand child health using big data.",
+          "sameAs": [
+                      "https://apps.smhs.gwu.edu/smhs/facultydirectory/profile.cfm?empName=Muhammad%20Rahman&FacID=2077507956&show=1",
+                      "https://research.childrensnational.org/people/rahman-muhammad-muhbubur",
+                      "https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics/muhammad-rahman",
+                      "https://scholar.google.com.my/citations?user=EqVbKDgAAAAJ&hl=en",
+                      "https://www.facebook.com/Mr.Mahbubur.Rahman",
+                      "http://www.linkedin.com/in/muhammad-mahbubur-rahman",
+                      "https://redirect.cs.umbc.edu/~mrahman1/",
+                      "https://orcid.org/0000-0002-3963-5949",
+                      "https://mrahmanlab.github.io/index.html"
+
+                    ], 
+        "alumniOf": "University of Maryland, Baltimore County"
+
+        },
+        {
+          "@id": "_:gwuAddress",
+          "@type": "PostalAddress",
+          "streetAddress": "950 New Hampshire Ave NW #2",
+          "addressLocality": "Washington",
+          "addressRegion": "Washington DC",
+          "postalCode": "20037",
+          "addressCountry": "US"
+        },
+        {
+          "@id": "_:cnhAddress",
+          "@type": "PostalAddress",
+          "streetAddress": "111 Michigan Avenue NW",
+          "addressLocality": "Washington",
+          "addressRegion": "Washington DC",
+          "postalCode": "20010",
+          "addressCountry": "US"
+        }
+      ]}
+      </script>      
 
       
    </head>
